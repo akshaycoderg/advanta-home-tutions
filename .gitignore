@@ -44,3 +44,7 @@ yarn-error.log*
 # playwright / test artifacts
 /test-results
 /playwright-report
+
+# Local environment overrides (keep the committed template visible)
+.env*
+!.env.example
